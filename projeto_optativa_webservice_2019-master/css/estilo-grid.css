@@ -1,0 +1,67 @@
+body,html{
+	height: 100%;
+}
+#container{
+	border: 1px solid #000;
+	text-align: center;
+	height: 100%;
+	display: grid;
+	grid-template-rows: 25% auto auto 20%;
+	background-color: gray;
+
+}
+#header{
+	border: 1px solid #000;
+	text-align: center;
+}
+#main{
+	border: 1px solid #000;
+	display: grid;
+	grid-template-columns: 15% auto;
+}
+
+#main #menu-lateral{
+	border: 1px solid #000;
+	text-align: center;
+
+}
+
+#main #menu-lateral ul{
+	border: 1px solid #000;
+	text-align: center;
+	list-style: none;
+}
+#menu-lateral ul{
+	
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+#menu-lateral ul li{
+	
+	border: 1px solid #000;
+	margin: 5px;
+	padding: 5px;
+}
+}
+#footer{
+	border: 1px solid #000;
+	text-align: center;
+
+}
+#menu{
+	border: 1px solid #000;
+	display: none;
+
+}
+#menu ul{
+	display: flex;
+	list-style: none;
+	padding: 0px;
+
+}
+#menu ul li{
+	border: 1px solid #000;
+	margin: 5px;
+	padding: 5px;
+} 
